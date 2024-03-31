@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3bb4ecb6aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Cybersecurity Enthusiast</p>
+            <h1>Hi, I'm <span>Rakshith U</span> From <br>Bengaluru, Karnataka.</h1>
+        </div>
+    </div>
+</div>
+<!-- --------------------About---------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As an experienced intern at CyberSapiens and CMTI, Trainee at CySeck, Karnataka, I am passionate about cybersecurity and software development. I am pursuing my Bachelor of Engineering degree in Computer Science and Engineering at Visvesvaraya Technological University, where I have learned various programming languages and tools. I had worked at CyberSapiens for about nine months and at CMTI for about three months, where I have contributed to multiple reports related to web security, data protection, and malware analysis. I had also been skilled in AWS security practices by CySeck, Govt. of Karnataka. I have also gained valuable experience in working with a diverse and collaborative team of experts and mentors. My core competencies include problem-solving, critical thinking, and algorithms. I am eager to learn more and apply my skills and knowledge to make a positive impact in the field of cybersecurity and software developmen</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Cybersecurity</span><br>Networking Protocols, Web Pentesting (VAPT), Cloud Security (AWS)</li>
+                    <li><span>Web development</span><br>HTML, CSS, JavaScript, Java, Hibernate ORM, Spring boot, JPA, Python, django, MySQL</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>19th Feb, 2024 - 22nd Mar, 2024</span><br>Trainee, CyberSecurity Finishing School (CySecK, Govt. of Karnataka)</li>
+                    <li><span>21st Aug, 2023 - 03rd Oct, 2023</span><br>Student Intern, Central Manufacturing Technology Institute(CMTI), Govt. of India</li>
+                    <li><span>06th Jan, 2023 - 04th Sep, 2023</span><br>Cybersecurity Intern, CyberSapiens United LLP</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2020 - 2024</span><br>B.E in CSE, Govt. Sri KrishnaRajendra Silver Jubilee Technological Institute<br>GPA:8.50</li>
+                    <li><span>2019 - 2020</span><br>II PUC (PCMC)<br>Percentage: 95.33%</li>
+                    <li><span>2017 - 2018</span><br>10th (CISCE)<br>Percentage: 86.16%</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-lock"></i>
+                <h2>CyberSecurity</h2>
+                <p>Offering comprehensive cybersecurity solutions including web penetration testing to identify vulnerabilities, and expert AWS security configurations ensuring robust protection against cyber threats. Safeguard your digital assets with my tailored cybersecurity services.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Web development</h2>
+                <p>I specialize in Java web development, offering expertise in core Java, Spring Boot, and microservices architecture. With proficiency in Hibernate ORM and MySQL, I deliver robust, scalable solutions for your web development needs.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python FullStack Development</h2>
+                <p>Offering end-to-end Python FullStack Development services, specializing in Django framework for robust backend solutions. Proficient in HTML, CSS, and JavaScript for dynamic frontend development. Expertise extends to database management with MySQL for seamless integration.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">Work Experinces / Certifications</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.png">
+                <div class="layer">
+                    <h3>Centre of Excellence in Cyber Security (CySecK)</h3>
+                    <p>Blue Teaming in AWS (Cloud Security)</p>
+                    <a href="images/CySecK.png" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/2.png">
+                <div class="layer">
+                    <h3>Central Manufacturing Technology Institute (CMTI)</h3>
+                    <p><li>Site SageGuard: Web Penetration Testing</li>
+                    <li>Node-RED Fortified: User Authentication and SSL
+                        Binding.</li></p>
+                    <a href="images/cmti.jpg" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/3.jpeg">
+                <div class="layer">
+                    <h3>CyberSapiens United LLP</h3>
+                    <p>41 Web Application vulnerabilities</p>
+                    <a href="images/Rakshith- Experience Letter.pdf" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1CETYyUQu4AKGQSKJ8ESf3slMO77eqIfn?usp=sharing" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:rakshuumesh@gmail.com" class="mail">rakshuumesh@gmail.com</a></p>
+                <p><i class="fa-solid fa-square-phone"></i><a href="tel:636-378-6255" class="mail">+91 63637 86255</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rakshith-u-72b54b251/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ra_ks_hu_07/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/rakshithumesh1" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/Rakshith-Umesh" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Rakshith_resume1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Rakshith U, 2024. </p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxb3CD1dDmeLqU3-JtiGaB6XYqDlQhzs-d-fn8tqJ1ctY535Uma--dmS8I2CkgWnaVL7g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfuly"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
